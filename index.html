@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
 </head>
 <body>
   <h1>Formulário com validação em JavaScript</h1>
-  <form id="form">    
+  <form action="https://api.staticforms.xyz/submit" method="post" id="form">    
     <progress id="progress" value="0" max="100"></progress>
     <label for="name">Nome:</label>
     <input type="text" id="name">
@@ -39,6 +39,9 @@
     <textarea name="message" id="message"></textarea>
 
     <button type="submit">Enviar</button>
+
+    <input type="hidden" name="accessKey" value="87b07ec0-6e23-4459-ad92-f71ec5c1c349">
+    <input type="hidden" name="redirectTo" value="https://fcosta74.github.io/novo_formulario/obrigado.html">
   </form>
   <!-- Modal -->
   <div id="modal">
